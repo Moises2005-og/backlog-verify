@@ -8,7 +8,6 @@ type ContainerProps = {
 export function Container({ children }: ContainerProps) {
     return (
         <>  
-            <Header />
             <div className="px-[5%]">
                 {children}
             </div>

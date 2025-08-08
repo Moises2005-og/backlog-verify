@@ -3,5 +3,5 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 40vh
+  min-height: 100vh; /* ajusta dinamicamente */
 }
