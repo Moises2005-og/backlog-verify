@@ -1,0 +1,7 @@
+.bgMain {
+  background-image: url("../../public/game-image.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh
+}
