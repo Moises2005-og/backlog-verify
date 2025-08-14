@@ -15,14 +15,23 @@ export function GamesAreaAverageHours() {
               src={game.image}
               width={100}
               height={100}
-              className="rounded-lg"
+              className=""
             />
-            <ul className="flex flex-col gap-3">
-              <li className="text-[18px]">{game.title}</li>
-              <li>Main Story</li>
-              <li>Main + Extra</li>
-              <li>Completionist</li>
-            </ul>
+            <div className={`bg-[url(${game.image})]`}>
+              <h1 className="text-[18px]">{game.title}</h1>
+              <div className="flex justify-between items-center mt-5 w-[300px]">
+                <ul className="flex flex-col gap-3">
+                  <li>Main Story</li>
+                  <li>Main + Extra</li>
+                  <li>Completionist</li>
+                </ul>
+                <ul className="flex flex-col gap-3">
+                  <li className="bg-[#2b7ab9] w-[150px] text-center py-[1px]">{game.MainStoryHours} Hours</li>
+                  <li className="bg-[#2b7ab9] w-[150px] text-center py-[1px]">{game.MainStoryPlusExtraHours} Hours</li>
+                  <li className="bg-[#2b7ab9] w-[150px] text-center py-[1px]">{game.completionistHours} Hours</li>
+                </ul>
+              </div>
+            </div>
           </div>
         ))}
       </div>

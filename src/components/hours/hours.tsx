@@ -1,6 +1,6 @@
 export function Hours() {
     return(
-        <div className="bg-blue-400 text-white px-[5%] flex justify-center py-10 font-bold ">
+        <div className="bg-[#2b7ab9] text-white px-[5%] flex justify-center py-10 font-bold ">
             <div>
                 <h2 className="text-center mb-5 text-[28px]">New in the Last 48 Hours</h2>
                 <ul className="flex gap-10">

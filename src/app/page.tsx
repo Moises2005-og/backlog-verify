@@ -6,12 +6,20 @@ import { SendButton } from "@/components/button";
 import { Hours } from "@/components/hours/hours";
 import { Header } from "@/components/header";
 import { GamesAreaAverageHours } from "@/components/gamesAreaAverageHours";
+import { useState } from "react";
 
 export default function Home() {
+
+    function MaxAndMin(min: number, max: number) {
+     return Math.floor(Math.random() * (max - min + 1)) + min;
+   }
+
+   const [number, setNumber] = useState<number>(MaxAndMin(1, 3))
+
   return (
     <>
       <Header />
-      <div className="relative bgMain mb-0">
+      <div className={`relative mb-0 ${number === 1 ? "bgMain":number === 2 ? "bgMain2":number === 3 ? "bgMain3":"" }`}>
         <div className="absolute inset-0 bg-black/40 z-10"></div>
         <Container>
           <div className="relative z-20 flex flex-col items-center justify-center min-h-screen px-4 text-center">

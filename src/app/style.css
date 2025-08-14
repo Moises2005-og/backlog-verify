@@ -5,3 +5,19 @@
   background-repeat: no-repeat;
   min-height: 100vh; /* ajusta dinamicamente */
 }
+
+.bgMain2 {
+  background-image: url("../../public/2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* ajusta dinamicamente */
+}
+
+.bgMain3 {
+  background-image: url("../../public/3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* ajusta dinamicamente */
+}
