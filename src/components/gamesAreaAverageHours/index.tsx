@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export function GamesAreaAverageHours() {
   return (
-    <div className="bg-[#171717] text-white font-bold flex justify-center items-center flex-col"> 
+    <div className="bg-[#171717] text-white font-bold flex justify-center items-center flex-col pb-5"> 
       <h2 className="text-[#f0ac71] text-[30px] px-[5%] py-8 font-bold">
         Popular Games
       </h2>

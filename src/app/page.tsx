@@ -7,6 +7,7 @@ import { Hours } from "@/components/hours/hours";
 import { Header } from "@/components/header";
 import { GamesAreaAverageHours } from "@/components/gamesAreaAverageHours";
 import { useState } from "react";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
 
@@ -41,6 +42,7 @@ export default function Home() {
       </div>
         <Hours />
         <GamesAreaAverageHours />
+        <Footer />
     </>
   );
 }

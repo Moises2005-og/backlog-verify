@@ -11,14 +11,14 @@ export function Header() {
                 <ul className="flex gap-5">
                     {
                         headerItems1.map((item: string, index: number) => (
-                            <li key={index}>{item}</li>
+                            <li key={index} className="cursor-pointer hover:underline">{item}</li>
                         )) 
                     }
                 </ul>
                 <ul className="flex gap-5">
                     {
                         headerItems2.map((item: string, index: number) => (
-                            <li key={index}>{item}</li>
+                            <li key={index} className="cursor-pointer hover:underline">{item}</li>
                         ))
                     }
                 </ul>
